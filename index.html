@@ -19,12 +19,35 @@
 		<title>The Digital Reserve</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<script src="assets/js/particles.js"></script>
 		<link rel="stylesheet" href="assets/css/main.css" />
+		
+		<!--icon image-->
+		<link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png">
+		<link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.png">
+		<link rel="apple-touch-icon" sizes="72x72" href="apple-icon-72x72.png">
+		<link rel="apple-touch-icon" sizes="76x76" href="apple-icon-76x76.png">
+		<link rel="apple-touch-icon" sizes="114x114" href="apple-icon-114x114.png">
+		<link rel="apple-touch-icon" sizes="120x120" href="apple-icon-120x120.png">
+		<link rel="apple-touch-icon" sizes="144x144" href="apple-icon-144x144.png">
+		<link rel="apple-touch-icon" sizes="152x152" href="apple-icon-152x152.png">
+		<link rel="apple-touch-icon" sizes="180x180" href="apple-icon-180x180.png">
+		<link rel="icon" type="image/png" sizes="192x192"  href="android-icon-192x192.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+		<link rel="manifest" href="manifest.json">
+		<meta name="msapplication-TileColor" content="#ffffff">
+		<meta name="msapplication-TileImage" content="ms-icon-144x144.png">
+		<meta name="theme-color" content="#ffffff">
+		<!--Icon images above-->
+		
 	</head>
 	<body>
 
 		<!-- Header -->
 			<header id="header">
+				
 				<div class="inner">
 					<div class="flex-item image left fit-logo">
 							<img src="images/Digital Reserve Stack.png" alt="" />
@@ -37,21 +60,31 @@
 					</nav>
 					<a href="#navPanel" class="navPanelToggle"><span class="fa fa-bars"></span></a>
 				</div>
+				
 			</header>
 
 		<!-- Banner -->
-			<section id="banner">
-				<div class="inner">
+			
+			<section id="banner" >	
+					<div class="inner" >
 					<div class="image fit title">
 							<img src="images/Digital Reserve Title.png" alt="" />
 					</div>
+					
 				</div>
-				<!--<h1>Welcome to Theory</h1>-->
-				<p>The Bank Of The People: A Decentralized Financial Institution<br />Be Empowered and Take Control of Your Money</p>
-				<ul class="actions">
-					<li><a href="#" class="button special big">Become an Insider</a></li>
-				</ul>
+				<div id="particle">	
+					<div id="particles-js"></div>
+					<!--<h1>Welcome to Theory</h1>-->
+					<p>Take Control of Your Money</p>
+					<ul class="actions">
+						<li><a href="#" class="button special big">Join the Network</a></li>
+					</ul>
+					
+				</div>
+				
+				
 			</section>
+			
 
 		<!-- One -->
 			<section id="one" class="wrapper">
@@ -63,7 +96,7 @@
 							</header>
 							<p>An economic system that changes the way microfinancing is done. A scalable and sustainable approach to making doing good profitable</p>
 							<footer>
-								<a href="#" class="button special">More</a>
+									<!--<a href="#" class="button special">More</a>-->
 							</footer>
 						</article>
 						<article>
@@ -72,16 +105,16 @@
 							</header>
 							<p>A secure, scalable and decentralized BlockDAG. Potential sub 5 second confirmation times with 1000 Transactions/second</p>
 							<footer>
-								<a href="#" class="button special">More</a>
+									<!--<a href="#" class="button special">More</a>-->
 							</footer>
 						</article>
 						<article>
 							<header>
-								<h3>A Public Benefit Corporation</h3>
+								<h3>A Decentralized Financial Institution</h3>
 							</header>
-							<p>A transparent organizational structure. Designed to create value for all and empower communities</p>
+							<p>The Digital Reserve Network is a platform for the development of new and innovative financial products that empower the users. </p>
 							<footer>
-								<a href="#" class="button special">More</a>
+									<!--<a href="#" class="button special">More</a>-->
 							</footer>
 						</article>
 
@@ -180,13 +213,29 @@
 							</header>
 							<p>Sed adipiscing ornare risus. Morbi est est, blandit sit amet, sagittis vel, euismod vel, velit. Pellentesque egestas sem. Suspendisse commodo ullamcorper magna non comodo sodales tempus.</p>
 							<footer>
-								<a href="#" class="button special">More</a>
+								<!<a href="#" class="button special">More</a>
 							</footer>
 						</article>
 					</div>
 				</div>
 			</section>
 
+			<!-- Four -->
+			<section id="four" class="wrapper style1 special">
+				<div class="inner">
+					<h2>The Vision</h2>
+					<figure>
+					    <blockquote>
+					       The Digital Reserve is creating an economic system that emphasizes utility, growth and productivity. Scarcity is a tool to create value, but microlending as, impact investment, creates incentive to extract additional value from existing resources. This is the underlying philosophy for the Digital Reserve. Provide access to capital at a cost, a path to building credit worthiness and additional real value will be created through the pursuit of greater returns and transactions that are not purely speculative.
+					    </blockquote>
+					    <footer>
+					        <cite class="author">Jomari Peterson</cite>
+					        <cite class="company">CEO, The Digital Reserve</cite>
+					    </footer>
+					</figure>
+				</div>
+			</section>
+			
 		<!-- Footer -->
 			<footer id="footer">
 				<div class="inner">
@@ -210,6 +259,8 @@
 			<script src="assets/js/skel.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+			<script src="assets/js/particles.js"></script>
+			<script src="assets/js/app.js"></script>
 			
 		<!-- Start of HubSpot Embed Code -->
 			<script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/4102485.js"></script>

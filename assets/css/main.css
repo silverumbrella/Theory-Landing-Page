@@ -1755,12 +1755,14 @@
 	.inner {
 		max-width: 75em;
 		margin: 0 auto;
+		z-index: 2;
 	}
 
 		@media screen and (max-width: 1280px) {
 
 			.inner {
 				max-width: 90%;
+				z-index: 2;
 			}
 
 		}
@@ -1769,6 +1771,7 @@
 
 			.inner {
 				max-width: 85%;
+				z-index: 2;
 			}
 
 		}
@@ -1785,6 +1788,7 @@
 
 	section.wrapper, article.wrapper {
 		padding: 6em 0;
+		z-index: 2;
 	}
 
 		section.wrapper header, article.wrapper header {
@@ -1825,6 +1829,7 @@
 
 			section.wrapper, article.wrapper {
 				padding: 2em 0;
+				z-index: 2;
 			}
 
 		}
@@ -1833,6 +1838,7 @@
 
 			section.wrapper header, article.wrapper header {
 				margin-bottom: 2em;
+
 			}
 
 				section.wrapper header h2, article.wrapper header h2 {
@@ -1849,6 +1855,7 @@
 
 			section.wrapper, article.wrapper {
 				text-align: center;
+				z-index: 2;
 			}
 
 				section.wrapper article, article.wrapper article {
@@ -2323,10 +2330,12 @@
 		list-style: disc;
 		margin: 0 0 2em 0;
 		padding-left: 1em;
+		z-index: 2;
 	}
 
 		ul li {
 			padding-left: 0.5em;
+			z-index: 2;
 		}
 
 		ul.alt {
@@ -2367,16 +2376,19 @@
 			cursor: default;
 			list-style: none;
 			padding-left: 0;
+			z-index:2;
 		}
 
 			ul.actions li {
 				display: inline-block;
 				padding: 0 1em 0 0;
 				vertical-align: middle;
+				z-index:2;
 			}
 
 				ul.actions li:last-child {
 					padding-right: 0;
+					z-index:2;
 				}
 
 			ul.actions.small li {
@@ -2754,6 +2766,7 @@
 		#header .inner {
 			margin: 0 auto;
 			position: relative;
+			z-index: 2;
 		}
 
 		#header .logo {
@@ -2956,6 +2969,7 @@
 		background-repeat: no-repeat;
 		text-align: center;
 		border-top: 0.5em solid #5385c1;
+		z-index: 2;
 	}
 
 		#banner h1 {
@@ -2971,6 +2985,7 @@
 			font-size: 1.5em;
 			color: rgba(87, 87, 86, 0.55);
 			margin-bottom: 1.75em;
+			z-index: 2;
 		}
 
 		@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
@@ -3080,3 +3095,89 @@
 		}
 
 	}
+	
+	
+	/* ---- particles.js container ---- */
+
+#particle {
+		padding: 10px;
+		text-align: center;
+		z-index: 2;
+	}
+
+		#particle h1 {
+			font-size: 3.5em;
+			font-weight: 100;
+			color: #fff;
+			line-height: 1em;
+			margin: 0 0 0.5em 0;
+			padding: 0;
+		}
+
+		#particle p {
+			font-size: 1.5em;
+			color: rgba(87, 87, 86, 0.55);
+			margin-bottom: 1.75em;
+			z-index: 2;
+		}
+
+		@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+
+			#particle {
+				background-attachment: scroll;
+			}
+
+		}
+
+		@media screen and (max-width: 1280px) {
+
+			#particle {
+				padding: 0 0 0 0;
+			}
+
+		}
+
+		@media screen and (max-width: 980px) {
+
+			#particle {
+				background-attachment: scroll;
+			}
+
+		}
+
+		@media screen and (max-width: 736px) {
+
+			#particle {
+				padding: 0 0 0 0;
+			}
+
+				#particle h1 {
+					font-size: 2.5em;
+				}
+
+				#particle p {
+					font-size: .9em;
+				}
+
+		}
+
+		@media screen and (max-width: 480px) {
+
+			#particle {
+				padding: 0 0 0 0;
+			}
+
+		}
+
+	
+	
+ #banner #particles-js{
+	position: absolute;
+	display: inline-block;
+    top: 35%;
+    right: 0;
+    bottom: 0;
+    left: 0;
+	z-index: 1;
+	opacity: 1;
+}
