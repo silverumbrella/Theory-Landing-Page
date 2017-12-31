@@ -6,6 +6,9 @@
 	Theory by TEMPLATED
 	templated.co @templatedco
 	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+	
+	Modified by Jomari Peterson
+	The Digital Reserve, P.B.C.
 */
 
 /* Reset */
@@ -2253,6 +2256,7 @@
 		.image img {
 			border-radius: 0;
 			display: block;
+			z-index:2;
 		}
 
 		.image.left, .image.right {
@@ -2283,18 +2287,29 @@
 		
 		.image.fit {
 			display: block;
-			margin: 0 0 2em 0;
+			margin: 0 0 0 0;
 			width: 100%;
+			z-index:2;
 		}
 
 			.image.fit img {
 				width: 100%;
+				z-index:2;
 			}
 			
 			.image.fit.title img {
 				width:80%;
 				display: block;
+				margin: auto;
+				z-index:2;
+			}
+			
+			.image.fit.coin img {
+				max-width:20%;
+				max-height:20%;
+				display: block;
 				margin: 0 auto;
+				z-index:2;
 			}
 			
 			.image.left.fit-logo img {
@@ -2302,6 +2317,8 @@
 				margin: auto;
 				padding: 0 300px 300px 0;
 				top: 0;
+				position: iniitial;
+				z-index:2;
 			}
 
 		.image.main {
@@ -2588,6 +2605,8 @@
 		text-align: center;
 		text-decoration: none;
 		white-space: nowrap;
+		position:relative;
+		z-index:2;
 	}
 
 		input[type="submit"]:hover,
@@ -2985,6 +3004,7 @@
 			font-size: 1.5em;
 			color: rgba(87, 87, 86, 0.55);
 			margin-bottom: 1.75em;
+			position:relative;
 			z-index: 2;
 		}
 
@@ -3178,6 +3198,6 @@
     right: 0;
     bottom: 0;
     left: 0;
-	z-index: 1;
+	z-index: 0;
 	opacity: 1;
 }
