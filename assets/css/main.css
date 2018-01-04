@@ -20,6 +20,9 @@
 		font-size: 100%;
 		font: inherit;
 		vertical-align: baseline;
+		position:relative;
+		z-index:2;
+		
 	}
 
 	article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
@@ -50,6 +53,16 @@
 
 	body {
 		-webkit-text-size-adjust: none;
+	}
+	
+	p{
+		display:inline;
+	}
+	p.cover { 
+		display:inline;
+		background-color:white; 
+		position:absolute;
+		z-index:2;
 	}
 
 /* Box Model */
